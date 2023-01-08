@@ -1,0 +1,9 @@
+a = int(input())
+b = 1
+while b <= a:
+    c = input()
+    first = c[0]
+    last = c[4]
+    sum = int(first) + int(last)
+    print('Sum = %d' %sum)
+    b = b + 1
